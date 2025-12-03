@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+!*.template.env
+config/.env
+config/*.env
+!config/*.template.env
+**/api-keys.env
+**/secrets.json
+**/credentials.json
+
+# API Keys & Credentials
+**/api_keys.txt
+**/api_keys.json
+**/*_key.txt
+**/*_secret.txt
+**/*_password.txt
+
+# Trading Data & Logs
+logs/*.log
+*.log
+data/private/
+trades/*.csv
+orders/*.csv
+positions/*.csv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# CSV data files (optional - remove if you want to track data)
+# data/**/*.csv
+
+# Backtest results (optional - remove if you want to track results)
+# backtests/results/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Large data files
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archives
+*.zip
+*.tar.gz
+*.rar

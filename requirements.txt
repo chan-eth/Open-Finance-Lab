@@ -1,0 +1,135 @@
+# Open Finance Lab - Core Requirements
+# This file contains the basic packages needed to get started
+# Additional packages may be needed for specific projects
+
+# ============================================
+# Core Dependencies (Phase 0-1)
+# ============================================
+
+# HTTP requests
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Market data
+yfinance>=0.2.0
+
+# ============================================
+# Data Visualization (Phase 1-2)
+# ============================================
+
+# Plotting
+matplotlib>=3.7.0
+plotly>=5.14.0
+seaborn>=0.12.0
+
+# Tables
+tabulate>=0.9.0
+
+# ============================================
+# Development Tools
+# ============================================
+
+# Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+
+# ============================================
+# Testing (Optional but Recommended)
+# ============================================
+
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# ============================================
+# Phase 2+ Dependencies
+# ============================================
+# Uncomment these as you progress
+
+# Technical indicators
+# ta-lib>=0.4.0  # Note: May require system-level dependencies
+# pandas-ta>=0.3.0
+
+# Backtesting frameworks
+# backtrader>=1.9.0
+# vectorbt>=0.25.0
+
+# ============================================
+# Phase 3+ Dependencies (APIs)
+# ============================================
+# Uncomment when you reach Phase 3
+
+# Async HTTP
+# aiohttp>=3.8.0
+# websockets>=11.0.0
+
+# Web frameworks
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# ============================================
+# Phase 4+ Dependencies (Advanced)
+# ============================================
+# Uncomment as needed
+
+# Database
+# psycopg2-binary>=2.9.0
+# sqlalchemy>=2.0.0
+# redis>=4.5.0
+
+# Task queues
+# celery>=5.3.0
+
+# ============================================
+# Optional: Utilities
+# ============================================
+
+# Progress bars
+tqdm>=4.65.0
+
+# Colors in terminal
+colorama>=0.4.6
+
+# Date/time utilities
+python-dateutil>=2.8.0
+
+# ============================================
+# Installation Instructions
+# ============================================
+
+# Install all dependencies:
+#   pip install -r requirements.txt
+
+# Install with extras (if needed):
+#   pip install -r requirements.txt --extra-index-url https://...
+
+# Create virtual environment first (recommended):
+#   python -m venv venv
+#   source venv/bin/activate  # On Windows: venv\Scripts\activate
+#   pip install -r requirements.txt
+
+# ============================================
+# Notes
+# ============================================
+
+# 1. Some packages (like ta-lib) may require system dependencies
+#    See: https://github.com/mrjbq7/ta-lib#dependencies
+
+# 2. For Apple Silicon (M1/M2 Macs), some packages may need special handling
+#    Consider using conda: conda install -c conda-forge [package]
+
+# 3. Keep packages updated:
+#    pip list --outdated
+#    pip install --upgrade [package]
+
+# 4. Generate your own requirements from a project:
+#    pip freeze > requirements.txt
